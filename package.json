@@ -1,0 +1,23 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "This is a repository for Cloud Computing Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulhadi112/my-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulhadi112/my-profile/issues"
+  },
+  "homepage": "https://github.com/abdulhadi112/my-profile#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
