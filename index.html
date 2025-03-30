@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Express App</title>
-    <style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
       img {
         width: 205px;
         border-radius: 125px;
@@ -12,19 +21,50 @@
       body {
         background-color: #3a3a3a;
         color: rgba(255, 255, 255, 0.7);
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
+
       a {
         color: antiquewhite;
         padding: 10px;
       }
-    </style>
+
+      .container {
+        border: 1px solid white;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+      }
+      h3 {
+        margin: 10px;
+      }
+    </style> -->
   </head>
-  <body>
-    <img src="./git-profile-pic.jpg" alt="" />
-    <h3>
-      My name is AbdulHadi Bavani & I am currently pursuing B.E. in Computer
-      Engineering from RCOE. To view my skills
-      <a href="./skills.html">Click Here</a>
-    </h3>
+  <body style="height: 100%">
+    <!-- <div class="container">
+      <img src="./git-profile-pic.jpg" alt="" />
+      <h1>GCP Experiment</h1>
+      <h3>
+        My name is AbdulHadi Bavani & I am currently pursuing B.E. in Computer
+        Engineering from RCOE. To view my skills
+        <a href="./skills.html">Click Here</a>
+      </h3>
+    </div> -->
+    <section id="home" class="hero">
+      <div class="hero-content animate__animated animate__fadeIn">
+        <div class="profile-photo">
+          <img src="git-profile-pic.jpg" alt="Shiburaj Pappu" />
+        </div>
+        <h1>Hi, I'm AbdulHadi Bavani</h1>
+        <p>Computer Engineering Student || Backend Developer</p>
+        <a href="#" class="btn">Get in Touch</a>
+      </div>
+    </section>
   </body>
 </html>
